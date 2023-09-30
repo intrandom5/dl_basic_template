@@ -40,6 +40,7 @@ class VGG16(nn.Module):
             dense_list.append(
                 nn.ReLU()
             )
+            in_dim = dense_dim
         return nn.Sequential(*dense_list)
 
     def constrcut_convs(self):
