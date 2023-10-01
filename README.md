@@ -1,2 +1,2 @@
 # dl_basic_template
-의 코드.
+https://all-the-meaning.tistory.com/33의 코드.
