@@ -22,6 +22,8 @@ def main():
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model_save_dir = "./saved_models"
+    if not os.path.exists(model_save_dir):
+        os.mkdir(model_save_dir)
 
     model.to(device)
     for epoch in range(5):
