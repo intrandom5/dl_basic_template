@@ -1,0 +1,9 @@
+channels: [64, 128, 256, 512]
+dense_dims: [500]
+n_class: 10
+input_shape: (32, 32)
+model_save_dir: "./saved_model/exp1"
+log_dir: "./logs/exp1"
+batch_size: 64
+lr: 1.e-5
+epochs: 5
